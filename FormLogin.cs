@@ -28,8 +28,6 @@ namespace AutoDigdaApplication
 
         public void loginMethod()
         {
-            string perusahaan;
-
             if (txtUsername.Text == "" || txtPassword.Text == "" || txtKodePerusahaan.Text == "")
             {
                 MessageBox.Show("Username atau Password atau Kode Perusahaan tidak boleh kosong!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
