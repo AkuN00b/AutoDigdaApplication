@@ -16,7 +16,7 @@ namespace AutoDigdaApplication
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Speedometer());
+            Application.Run(new Controlling());
         }
     }
 }
